@@ -11,3 +11,8 @@ public class AccountsApplication {
 	}
 
 }
+
+//docker container run --rm --name spring-pg -e POSTGRES_PASSWORD=secret -e POSTGRES_USER=root -p 5432:5432 -d postgres
+//docker container exec -it spring-pg psql
+//CREATE DATABASE accounts;
+//GRANT ALL PRIVILEGES ON DATABASE "accounts" TO root;
