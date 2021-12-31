@@ -22,4 +22,5 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
     List<AccountIdAndUsername> searchByUsernameAlike(String usernameAlike);
 
     Optional<Account> findAccountById(Long id);
+    //
 }
